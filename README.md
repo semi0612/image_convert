@@ -1,9 +1,9 @@
 ## image_convert
 문제가 될 경우 삭제하겠습니다.
 
-이 실험은 Tensorfloww Library API을 기반으로 Colab이 제공하는 GPU를 사용했습니다. 
+이 실험은 Tensorfloww Library API을 기반으로 Colab이 제공하는 GPU를 사용하였습니다. 
 
-#### - 데이터는 kaggle에서 제공하는 Cats-vs-Dogs 데이터를 이용하여 2만 5천장 중 1만 7천장을 train_data, 4천장을 validation_data, test_data 4000으로 나누어 실험 진행.
+#### - 데이터는 kaggle에서 제공하는 Cats-vs-Dogs 데이터를 이용하여 2만 5천장 중 1만 7천장을 train_data, 4천장을 validation_data, test_data 4000으로 나누어 실험 진행함.
 
 ### 실험 모델
 VggNet(Layer 16, epoch 250, optimizer SGD(lr=0.001, momentum=0.9), batch_size 20, step(train, batch) 80, 20, loss function binary crossentropy, dense layer activation sigmoid)
